@@ -2,4 +2,11 @@
     <string name="app_name">AppICoclear</string>
     <string name="play">play</string>
     <string name="play_sounds">Play sounds</string>
+    <string name="sounds_of_animals">Sounds of animals</string>
+    <string name="guepardo">Guepardo</string>
+    <string name="leon">leon</string>
+    <string name="mono">mono</string>
+    <string name="perro">perro</string>
+    <string name="puma">puma</string>
+    <string name="oso">oso</string>
 </resources>

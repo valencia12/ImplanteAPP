@@ -28,14 +28,39 @@
                     android:gravity="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@android:dimen/app_icon_size"
-                    android:text="@string/play_sounds"/>
+                    android:text="@string/sounds_of_animals"/>
 
 
             <Button
                     android:id="@+id/play_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/play"/>
+                    android:text="@string/guepardo"/>
+            <Button
+                    android:id="@+id/play_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leon"/>
+            <Button
+                    android:id="@+id/play_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mono"/>
+            <Button
+                    android:id="@+id/play_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oso"/>
+            <Button
+                    android:id="@+id/play_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perro"/>
+            <Button
+                    android:id="@+id/play_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/puma"/>
 
 
         </LinearLayout>
@@ -46,12 +71,6 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:orientation="vertical">
-
-
-
-
-
-
         </LinearLayout>
     </LinearLayout>
 
