@@ -1,4 +1,4 @@
-package com.example.appicoclear.loginAction
+package com.example.appicoclear.activites.loginAction
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.util.Log
 import android.widget.Toast
 import com.example.appicoclear.MainActivity
 import com.example.appicoclear.R
-import com.example.appicoclear.viewsAccounts.HomeUser
+import com.example.appicoclear.activites.viewsAccounts.HomeUser
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 

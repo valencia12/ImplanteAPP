@@ -9,15 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".actionTherapist.playSounds">
+        <activity android:name="com.example.appicoclear.activites.viewsAccounts.actionTherapist.playSounds">
         </activity>
-        <activity android:name=".viewsAccounts.DataPatient">
+        <activity android:name="com.example.appicoclear.activites.viewsAccounts.DataPatient">
         </activity>
-        <activity android:name=".viewsAccounts.RegisterPatient">
+        <activity android:name="com.example.appicoclear.activites.viewsAccounts.RegisterPatient">
         </activity>
-        <activity android:name=".viewsAccounts.HomeUser">
+        <activity android:name="com.example.appicoclear.activites.viewsAccounts.HomeUser">
         </activity>
-        <activity android:name=".loginAction.LoginActivity">
+        <activity android:name="com.example.appicoclear.activites.loginAction.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
