@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.appicoclear.utils.action
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -48,8 +49,12 @@ class LoginActivity : AppCompatActivity() {
         }
 
     }
-
-    private fun action(){
-        startActivity(Intent(this,HomeUser::class.java))
+    override fun onStart(){
+        super.onStart()
+        FirebaseAuth.getInstance().currentUser?.let{
+            action()
+        }
     }
+
+
 }
