@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppICoclear</string>
+    <string name="play">play</string>
+    <string name="play_sounds">Play sounds</string>
 </resources>
