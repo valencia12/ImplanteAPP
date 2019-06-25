@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.appicoclear.loginAction.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         link_login.setOnClickListener(){
-            val intent: Intent = Intent(this,LoginActivity::class.java)
+            val intent: Intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
         btn_signup.setOnClickListener{
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
                 Log.d("Main","Usuario creado: ${it.result?.user?.uid}")
                 Toast.makeText(this, "isSuccessful", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this,LoginActivity::class.java))
+                startActivity(Intent(this, LoginActivity::class.java))
             }
             .addOnFailureListener {
                 Log.d("Main", "Error al crear usuario: ${it.message}")

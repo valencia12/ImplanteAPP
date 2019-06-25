@@ -1,10 +1,13 @@
-package com.example.appicoclear
+package com.example.appicoclear.loginAction
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.appicoclear.MainActivity
+import com.example.appicoclear.R
+import com.example.appicoclear.viewsAccounts.HomeUser
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -19,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         link_signup.setOnClickListener(){
-            val intent:Intent = Intent(this,MainActivity::class.java)
+            val intent:Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
@@ -50,6 +53,6 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun action(){
-        startActivity(Intent(this,HomeUser::class.java))
+        startActivity(Intent(this, HomeUser::class.java))
     }
 }

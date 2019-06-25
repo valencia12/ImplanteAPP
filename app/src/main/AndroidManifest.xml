@@ -9,9 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".HomeUser">
+        <activity android:name=".actionTherapist.playSounds">
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".viewsAccounts.DataPatient">
+        </activity>
+        <activity android:name=".viewsAccounts.RegisterPatient">
+        </activity>
+        <activity android:name=".viewsAccounts.HomeUser">
+        </activity>
+        <activity android:name=".loginAction.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
