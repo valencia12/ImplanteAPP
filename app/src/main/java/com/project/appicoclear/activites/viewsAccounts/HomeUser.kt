@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.project.appicoclear.R
+import com.project.appicoclear.activites.loginAction.LoginActivity
 import com.project.appicoclear.activites.viewsAccounts.actionTherapist.playSounds
 import kotlinx.android.synthetic.main.activity_home_user.*
 
@@ -14,6 +15,10 @@ class HomeUser : AppCompatActivity() {
         setContentView(R.layout.activity_home_user)
         playSounds1.setOnClickListener(){
             startActivity(Intent(this, playSounds::class.java))
+        }
+        dataPatient1.setOnClickListener(){
+            val intent: Intent = Intent(this, RegisterPatient::class.java)
+            startActivity(intent)
         }
     }
 }

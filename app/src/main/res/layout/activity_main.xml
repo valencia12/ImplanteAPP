@@ -23,13 +23,16 @@
                       android:hint="Name" />
 
 
-
-
-            <EditText android:id="@+id/input_email"
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:inputType="textEmailAddress"
-                      android:hint="Email" />
+        <EditText android:id="@+id/input_name2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPersonName"
+                  android:hint="Last Name"/>
+        <EditText android:id="@+id/input_email"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textEmailAddress"
+                  android:hint="Email" />
 
 
 
