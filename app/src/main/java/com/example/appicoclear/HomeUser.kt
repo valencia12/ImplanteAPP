@@ -7,6 +7,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.example.appicoclear.utils.salir
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_home_user.*
 
@@ -33,12 +34,13 @@ class HomeUser : AppCompatActivity() {
         if(item?.itemId == R.id.action_salir){
 
             AlertDialog.Builder(this).apply{
-                setTitle("Are you sure?")
-                setPositiveButton("Yes"){ _, _ ->
+                setTitle("¿Estas seguro?")
+                setPositiveButton("Aceptar"){ _, _ ->
                     FirebaseAuth.getInstance().signOut()
+                    salir()
 
                 }
-                setNegativeButton("Cancel"){ _, _ ->
+                setNegativeButton("Cancelar"){ _, _ ->
                 }
             }.create().show()
 
