@@ -14,7 +14,7 @@ object databaseConstrac {
     }
 
     object Therapist : BaseColumns {
-        const val TABLE_NAME = "therapist"
+        const val TABLE_NAME = "Therapist"
         const val COLUMN_ID = "id"
         const val COLUMN_NAME = "name"
     }
