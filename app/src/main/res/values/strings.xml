@@ -9,4 +9,8 @@
     <string name="perro">perro</string>
     <string name="puma">puma</string>
     <string name="oso">oso</string>
+    <string name="send">Send</string>
+    <string name="tipo_de_problema">Tipo De Problema</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="ingrese_los_datos_del_paciente">Ingrese los datos del paciente</string>
 </resources>

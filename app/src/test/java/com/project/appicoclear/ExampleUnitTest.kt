@@ -1,4 +1,4 @@
-package com.example.appicoclear
+package com.project.appicoclear
 
 import org.junit.Test
 

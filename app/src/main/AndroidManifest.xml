@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.appicoclear">
+          package="com.project.appicoclear">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     <application
             android:allowBackup="true"
@@ -9,15 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="com.example.appicoclear.activites.viewsAccounts.actionTherapist.playSounds">
+        <activity android:name=".activites.viewsAccounts.actionTherapist.playSounds">
         </activity>
-        <activity android:name="com.example.appicoclear.activites.viewsAccounts.DataPatient">
+        <activity android:name=".activites.viewsAccounts.DataPatient">
         </activity>
-        <activity android:name="com.example.appicoclear.activites.viewsAccounts.RegisterPatient">
+        <activity android:name=".activites.viewsAccounts.RegisterPatient">
         </activity>
-        <activity android:name="com.example.appicoclear.activites.viewsAccounts.HomeUser">
+        <activity android:name=".activites.viewsAccounts.HomeUser">
         </activity>
-        <activity android:name="com.example.appicoclear.activites.loginAction.LoginActivity">
+        <activity android:name=".activites.loginAction.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

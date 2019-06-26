@@ -1,8 +1,8 @@
-package com.example.appicoclear.activites.viewsAccounts
+package com.project.appicoclear.activites.viewsAccounts
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.example.appicoclear.R
+import com.project.appicoclear.R
 
 class DataPatient : AppCompatActivity() {
 
