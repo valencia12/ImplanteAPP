@@ -14,8 +14,9 @@
     <string name="descripcion">Descripcion</string>
     <string name="ingrese_los_datos_del_paciente">Ingrese los datos del paciente</string>
     <string name="data_patient">Data Patient</string>
-    <string name="Register">Register Patient</string>
+    <string name="Register">Registrar Paciente</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guardar">Guardar</string>
 </resources>

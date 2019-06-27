@@ -14,10 +14,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textColor="@color/shadow_text"
+            android:textColor="@color/textcolor"
             android:textSize="@android:dimen/app_icon_size"
             android:text="@string/play_sounds"
             tools:layout_editor_absoluteX="0dp"
+            android:shadowColor="@color/shadow_text"
+            android:shadowRadius="10"
+            android:shadowDx="2"
+            android:shadowDy="5"
             android:id="@+id/textView" android:layout_marginTop="56dp" app:layout_constraintTop_toTopOf="parent"/>
 
 
@@ -26,53 +30,82 @@
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:text="Nivel 1"
-            android:textColor="@color/shadow_text"
+            android:textStyle="bold"
+
+            android:textColor="@color/textcolor"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             app:layout_constraintHorizontal_bias="0.498"
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/botonredondo"/>
 
     <Button
             android:id="@+id/playSounds2"
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:text="Nivel 2"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/playSounds1"
+            android:textColor="@color/textcolor"
+            android:shadowColor="@color/shadow_text"
+            android:shadowRadius="10"
+            android:shadowDx="2"
+            android:shadowDy="5"
             android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/playSounds1"
 
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/botonredondo"/>
 
     <Button
             android:id="@+id/playSounds3"
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:text="Nivel 3"
+            android:textColor="@color/textcolor"
+            android:shadowColor="@color/shadow_text"
+            android:shadowRadius="10"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="@+id/playSounds2" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/playSounds2"
 
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/botonredondo"/>
 
     <Button
             android:id="@+id/playSounds4"
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:text="Nivel 4"
+            android:textColor="@color/textcolor"
+            android:shadowColor="@color/shadow_text"
+            android:shadowRadius="10"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="@+id/playSounds3"
             android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/playSounds3"
 
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/botonredondo"/>
     <Button
             android:id="@+id/dataPatient1"
             android:layout_width="177dp"
             android:layout_height="57dp"
             android:text="@string/Register"
+            android:textColor="@color/textcolor"
+            android:shadowColor="@color/shadow_text"
+            android:shadowRadius="10"
+            android:shadowDx="2"
+            android:shadowDy="5"
+            android:textStyle="bold"
+
             app:layout_constraintStart_toStartOf="@+id/playSounds4" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/playSounds4"
 
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/botonredondo"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
