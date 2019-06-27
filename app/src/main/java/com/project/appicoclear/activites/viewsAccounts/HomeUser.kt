@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.project.appicoclear.R
 import com.project.appicoclear.activites.loginAction.LoginActivity
 import com.project.appicoclear.activites.viewsAccounts.Levels.MainLevelActivity
+import com.project.appicoclear.activites.viewsAccounts.paciente.MainPacientActivity
+//import com.project.appicoclear.activites.viewsAccounts.paciente.MainPacienteActivity
 //import com.project.appicoclear.activites.viewsAccounts.actionTherapist.playSounds1
 import kotlinx.android.synthetic.main.activity_home_user.*
 
@@ -35,6 +37,10 @@ class HomeUser : AppCompatActivity() {
         playSounds4.setOnClickListener(){
             val intent:Intent = Intent( this, MainLevelActivity::class.java)
             intent.putExtra("opc","4")
+            startActivity(intent)
+        }
+        btn_expediente.setOnClickListener(){
+            val intent: Intent = Intent(this, MainPacientActivity::class.java)
             startActivity(intent)
         }
         dataPatient1.setOnClickListener(){
