@@ -1,10 +1,10 @@
 package com.project.appicoclear.activites.loginAction
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.project.appicoclear.MainActivity
 import com.project.appicoclear.R
 import com.project.appicoclear.activites.viewsAccounts.HomeUser

@@ -1,7 +1,9 @@
 package com.project.appicoclear.activites.database.repository
 
-import android.arch.lifecycle.LiveData
-import android.support.annotation.WorkerThread
+
+//import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
+import androidx.lifecycle.LiveData
 import com.project.appicoclear.activites.database.daos.PacientesDao
 import com.project.appicoclear.activites.database.entities.PacienteEnti
 

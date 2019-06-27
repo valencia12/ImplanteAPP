@@ -1,6 +1,6 @@
 package com.project.appicoclear.activites.database.daos
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query

@@ -1,9 +1,9 @@
 package com.project.appicoclear.activites.viewsAccounts.actionTherapist
 
 import android.media.MediaPlayer
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
+import androidx.appcompat.app.AppCompatActivity
 import com.project.appicoclear.R
 import kotlinx.android.synthetic.main.activity_play_sounds.*
 
