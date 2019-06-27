@@ -59,10 +59,12 @@ dependencies {
     testImplementation "androidx.room:room-testing:$room_version"
 
 
-
-
-
-
+    /*Design*/
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha05'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0-rc02'
+    implementation 'androidx.navigation:navigation-ui:2.0.0-rc02'
 }
 
 apply plugin: 'com.google.gms.google-services'

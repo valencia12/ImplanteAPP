@@ -13,7 +13,7 @@
             android:theme="@style/AppTheme">
         <activity android:name=".activites.loginAction.ForgotPassword">
         </activity>
-        <activity android:name=".activites.viewsAccounts.actionTherapist.playSounds">
+        <activity android:name=".activites.viewsAccounts.Levels.MainLevelActivity">
         </activity>
         <activity android:name=".activites.viewsAccounts.DataPatient">
         </activity>
